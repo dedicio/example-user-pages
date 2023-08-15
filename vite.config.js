@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
       name: 'ExampleUserPages',
-      fileName: 'example-user-pages'
+      fileName: (format) => `example-user-pages.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
