@@ -1,6 +1,6 @@
 {
   "name": "example-user-pages",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Example of a user page module for Dedicio",
   "author": "Dedicio Coelho",
   "type": "module",
