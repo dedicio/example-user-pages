@@ -2,6 +2,11 @@
   "name": "example-user-pages",
   "version": "0.2.0",
   "description": "Example of a user page module for Dedicio",
+  "author": "Dedicio Coelho",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/example-user-pages.umd.js",
   "module": "./dist/example-user-pages.es.js",
   "exports": {
@@ -10,8 +15,6 @@
       "require": "./dist/example-user-pages.umd.js"
     }
   },
-  "type": "module",
-  "author": "Dedicio Coelho",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
