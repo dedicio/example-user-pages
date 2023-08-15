@@ -1,6 +1,15 @@
 {
   "name": "example-user-pages",
   "version": "0.1.2",
+  "description": "Example of a user page module for Dedicio",
+  "main": "./dist/example-user-pages.umd.js",
+  "module": "./dist/example-user-pages.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/example-user-pages.es.js",
+      "require": "./dist/example-user-pages.umd.js"
+    }
+  },
   "type": "module",
   "author": "Dedicio Coelho",
   "scripts": {
