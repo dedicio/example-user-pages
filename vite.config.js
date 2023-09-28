@@ -17,6 +17,10 @@ export default defineConfig({
           vue: 'Vue'
         }
       }
+    },
+    test:{
+      globals:true,
+      environment: 'happy-dom',
     }
   }
 })
