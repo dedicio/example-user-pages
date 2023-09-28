@@ -13,5 +13,6 @@ describe('Title.vue', () => {
         const h1 = wrapper.find('h1')
 
         expect(h1.text()).toBe(text)
+        expect(h1.classes()).toContain('title')
     })
 })
